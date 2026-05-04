@@ -1,0 +1,49 @@
+# Build dirs
+build/
+build-*/
+out/
+cmake-build-*/
+
+# Qt / CMake artefacts
+*.user
+*.user.*
+CMakeCache.txt
+CMakeFiles/
+Makefile
+moc_*
+qrc_*
+ui_*
+*.qmlc
+*.jsc
+*.qmltypes
+*.autosave
+
+# IDE
+.idea/
+.vscode/
+.cache/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Output
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.app
+
+# Logs
+*.log
+
+# Packaged artefacts
+dist/
+*.zip

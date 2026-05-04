@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/qml">
+        <file alias="Main.qml">../qml/Main.qml</file>
+        <file alias="components/AcrylicCard.qml">../qml/components/AcrylicCard.qml</file>
+        <file alias="components/AcrylicBackground.qml">../qml/components/AcrylicBackground.qml</file>
+        <file alias="components/AmberButton.qml">../qml/components/AmberButton.qml</file>
+        <file alias="components/GhostButton.qml">../qml/components/GhostButton.qml</file>
+        <file alias="components/SidebarItem.qml">../qml/components/SidebarItem.qml</file>
+        <file alias="components/TitleBar.qml">../qml/components/TitleBar.qml</file>
+        <file alias="components/SegmentedSelector.qml">../qml/components/SegmentedSelector.qml</file>
+        <file alias="components/DropZone.qml">../qml/components/DropZone.qml</file>
+        <file alias="components/StatusToast.qml">../qml/components/StatusToast.qml</file>
+        <file alias="components/PathField.qml">../qml/components/PathField.qml</file>
+        <file alias="components/AppLogo.qml">../qml/components/AppLogo.qml</file>
+        <file alias="pages/HomePage.qml">../qml/pages/HomePage.qml</file>
+        <file alias="pages/EncodingsPage.qml">../qml/pages/EncodingsPage.qml</file>
+        <file alias="pages/ImagesPage.qml">../qml/pages/ImagesPage.qml</file>
+        <file alias="pages/DataPage.qml">../qml/pages/DataPage.qml</file>
+        <file alias="pages/EncodePage.qml">../qml/pages/EncodePage.qml</file>
+        <file alias="pages/VideoPage.qml">../qml/pages/VideoPage.qml</file>
+        <file alias="pages/SettingsPage.qml">../qml/pages/SettingsPage.qml</file>
+    </qresource>
+</RCC>
