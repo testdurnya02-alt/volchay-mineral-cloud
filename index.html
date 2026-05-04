@@ -520,7 +520,7 @@
   <section id="projects">
     <div class="section-head">
       <h2>Проєкти</h2>
-      <span class="meta mono">// 1 активний · 2 в роботі</span>
+      <span class="meta mono">// 3 активних</span>
     </div>
 
     <article class="project" id="download">
@@ -540,55 +540,138 @@
 
       <div class="body">
         <div class="tags">
-          <span class="tag live">● live · v0.1.0</span>
+          <span class="tag live">● live · v0.2.0</span>
           <span class="tag">Windows · x64</span>
-          <span class="tag">PySide6</span>
+          <span class="tag">Qt 6 · C++</span>
           <span class="tag">MIT</span>
         </div>
         <h3>Volchay Cleans</h3>
-        <div class="subtitle">Аналізатор та чистильник диска з радаром сканування.</div>
+        <div class="subtitle">Аналізатор диска для&nbsp;Windows. Тільки дивиться&nbsp;— нічого не&nbsp;видаляє.</div>
         <p>
-          Рахує, хто займає місце, шукає дублікати за&nbsp;BLAKE2b та&nbsp;«сміття»
-          за&nbsp;декларативними правилами (кошик, тимчасові файли, кеші браузерів,
-          старі великі файли). Видаляє все&nbsp;строго через системний кошик,
-          з&nbsp;dry-run та&nbsp;журналом дій.
+          Сканує обрану папку або весь&nbsp;диск, будує дерево розмірів і&nbsp;показує
+          всі файли в&nbsp;одній таблиці з&nbsp;фільтрами за&nbsp;типом, пошуком,
+          сортуванням і&nbsp;панеллю деталей. Усі рішення про&nbsp;очистку приймаєш сам.
         </p>
         <ul class="features">
-          <li>Фільтр за&nbsp;типами: Відео / Фото / Аудіо / Документи / Код</li>
-          <li>Пошук дублікатів у&nbsp;два проходи (size&nbsp;→&nbsp;BLAKE2b)</li>
-          <li>Радар сканування з&nbsp;кольоровими бліпами</li>
-          <li>Теми: Dark · Light · System · RGB</li>
-          <li>Видалення лише в&nbsp;кошик + dry-run</li>
-          <li>Запам’ятовує обрану тему та&nbsp;налаштування</li>
+          <li>Огляд дисків з&nbsp;круговим індикатором заповненості</li>
+          <li>Дерево папок із&nbsp;розмірами та&nbsp;долею від&nbsp;батьківської</li>
+          <li>Чіпси-фільтри: Відео / Фото / Аудіо / Документи / Архіви / Код</li>
+          <li>Темна та&nbsp;світла теми, акцент Claude orange</li>
+          <li>Фонове сканування з&nbsp;відміною та&nbsp;спінером</li>
+          <li>Відкриття в&nbsp;провіднику + копіювання шляху</li>
         </ul>
         <div class="actions">
-          <a class="btn btn-accent" href="https://github.com/reideveloperr-jpg/disk-cleaner/releases/download/v0.1.0/VolchayCleans.exe" download>
+          <a class="btn btn-accent" href="https://github.com/testdurnya02-alt/volchay-mineral-cloud/releases/download/v0.2.0-cleans/Volchay-Cleans-windows-x64.zip" download>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
-            Завантажити .exe для Windows <span class="filesize">~232 MB</span>
+            Завантажити .zip для Windows <span class="filesize">~20 MB</span>
           </a>
-          <a class="btn btn-secondary" href="https://github.com/reideveloperr-jpg/disk-cleaner" target="_blank" rel="noopener">
+          <a class="btn btn-secondary" href="https://github.com/testdurnya02-alt/Volchay-Cleans" target="_blank" rel="noopener">
             <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.55v-2.13c-3.2.7-3.87-1.37-3.87-1.37-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.74 2.67 1.24 3.32.95.1-.74.4-1.24.72-1.53-2.55-.29-5.24-1.27-5.24-5.66 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.15 1.17a10.95 10.95 0 0 1 5.74 0c2.18-1.48 3.14-1.17 3.14-1.17.62 1.57.23 2.73.11 3.02.74.8 1.18 1.82 1.18 3.07 0 4.4-2.69 5.36-5.25 5.65.41.35.78 1.04.78 2.1v3.11c0 .3.21.66.8.55C20.21 21.39 23.5 17.08 23.5 12 23.5 5.65 18.35.5 12 .5z"/></svg>
             Вихідники
-          </a>
-          <a class="btn-link" href="https://github.com/reideveloperr-jpg/disk-cleaner/pull/1" target="_blank" rel="noopener">
-            PR #1 →
           </a>
         </div>
       </div>
     </article>
 
-    <div class="placeholders">
-      <div class="placeholder">
-        <span class="ph-tag">in progress</span>
-        <h4>Наступний проєкт</h4>
-        <p>Скоро. Коли буде готовий — з’явиться тут карткою як Volchay Cleans.</p>
+    <article class="project" id="download-fastcut" style="margin-top: 18px;">
+      <div class="thumb">
+        <!-- Кадр-діафрагма — лого Volchay Fastcut -->
+        <svg class="wolf" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" aria-label="Volchay Fastcut">
+          <rect x="32" y="56" width="192" height="144" rx="18" ry="18" fill="#161616"/>
+          <g fill="#CC785C">
+            <rect x="44" y="68" width="22" height="22" rx="3"/>
+            <rect x="44" y="100" width="22" height="22" rx="3"/>
+            <rect x="44" y="132" width="22" height="22" rx="3"/>
+            <rect x="44" y="164" width="22" height="22" rx="3"/>
+            <rect x="190" y="68" width="22" height="22" rx="3"/>
+            <rect x="190" y="100" width="22" height="22" rx="3"/>
+            <rect x="190" y="132" width="22" height="22" rx="3"/>
+            <rect x="190" y="164" width="22" height="22" rx="3"/>
+          </g>
+          <path d="M 110 100 L 110 156 L 162 128 Z" fill="#CC785C"/>
+        </svg>
       </div>
-      <div class="placeholder">
-        <span class="ph-tag">idea</span>
-        <h4>Зарезервовано</h4>
-        <p>Місце під майбутню утиліту або веб-експеримент.</p>
+
+      <div class="body">
+        <div class="tags">
+          <span class="tag live">● live · v0.1.0</span>
+          <span class="tag">Windows · x64</span>
+          <span class="tag">ImGui · D3D11</span>
+          <span class="tag">MIT</span>
+        </div>
+        <h3>Volchay Fastcut</h3>
+        <div class="subtitle">Нативний відеоредактор для&nbsp;Windows&nbsp;11. Холодний старт &lt;&nbsp;300&nbsp;ms.</div>
+        <p>
+          V0-скелет: відкриває одне відео, малює темний UI у&nbsp;стилі Lightroom і&nbsp;реєструє
+          себе як&nbsp;handler контекстного меню Windows для&nbsp;популярних відеоформатів. Без
+          Electron, Qt, Java та&nbsp;телеметрії.
+        </p>
+        <ul class="features">
+          <li>Холодний старт &lt;&nbsp;300&nbsp;ms (CapCut: 5–10&nbsp;s)</li>
+          <li>Dear ImGui (docking) + Direct3D&nbsp;11 для&nbsp;UI</li>
+          <li>Декодування через&nbsp;FFmpeg (H.264 / HEVC / VP9 / AV1)</li>
+          <li>Реєструється у&nbsp;«Open with» Windows за&nbsp;один&nbsp;.bat</li>
+          <li>Старт-трейс із&nbsp;мс по&nbsp;кожній фазі у&nbsp;%LOCALAPPDATA%</li>
+          <li>Ніяких фонових демонів та&nbsp;runtime'ів</li>
+        </ul>
+        <div class="actions">
+          <a class="btn btn-accent" href="https://github.com/testdurnya02-alt/volchay-mineral-cloud/releases/download/v0.1.0-fastcut/Volchay-fastcut-windows-x64.zip" download>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+            Завантажити .zip для Windows <span class="filesize">~46 MB</span>
+          </a>
+          <a class="btn btn-secondary" href="https://github.com/testdurnya02-alt/volchay-mineral-cloud/tree/source/volchay-fastcut" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.55v-2.13c-3.2.7-3.87-1.37-3.87-1.37-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.74 2.67 1.24 3.32.95.1-.74.4-1.24.72-1.53-2.55-.29-5.24-1.27-5.24-5.66 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.15 1.17a10.95 10.95 0 0 1 5.74 0c2.18-1.48 3.14-1.17 3.14-1.17.62 1.57.23 2.73.11 3.02.74.8 1.18 1.82 1.18 3.07 0 4.4-2.69 5.36-5.25 5.65.41.35.78 1.04.78 2.1v3.11c0 .3.21.66.8.55C20.21 21.39 23.5 17.08 23.5 12 23.5 5.65 18.35.5 12 .5z"/></svg>
+            Вихідники
+          </a>
+        </div>
       </div>
-    </div>
+    </article>
+
+    <article class="project" id="download-conpro" style="margin-top: 18px;">
+      <div class="thumb">
+        <!-- Дві стрілки — лого Volchay con Pro -->
+        <svg class="wolf" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" aria-label="Volchay con Pro">
+          <g fill="#CC785C">
+            <path d="M 40 88 L 156 88 L 156 64 L 216 100 L 156 136 L 156 112 L 40 112 Z"/>
+            <path d="M 216 168 L 100 168 L 100 144 L 40 180 L 100 216 L 100 192 L 216 192 Z"/>
+          </g>
+        </svg>
+      </div>
+
+      <div class="body">
+        <div class="tags">
+          <span class="tag live">● live · v0.1.0</span>
+          <span class="tag">Windows · x64</span>
+          <span class="tag">Qt 6 · QML</span>
+          <span class="tag">MIT</span>
+        </div>
+        <h3>Volchay con Pro</h3>
+        <div class="subtitle">Універсальний конвертер файлів з&nbsp;acrylic-інтерфейсом.</div>
+        <p>
+          Кодування, зображення, дані, base64/hex&nbsp;— все&nbsp;в&nbsp;одному вікні. Дизайн
+          натхненний Luna, переосмислений у&nbsp;дусі Acri: frosted-glass панелі, янтарний
+          акцент, чиста типографіка.
+        </p>
+        <ul class="features">
+          <li>Кодування: UTF-8 ↔&nbsp;UTF-16/32 ↔&nbsp;CP1251 ↔&nbsp;KOI8 ↔&nbsp;CP866 ↔&nbsp;Mac</li>
+          <li>Зображення: PNG ↔&nbsp;JPG ↔&nbsp;BMP ↔&nbsp;WEBP ↔&nbsp;TIFF ↔&nbsp;ICO</li>
+          <li>Дані: CSV ↔&nbsp;JSON та&nbsp;Markdown → HTML</li>
+          <li>Кодування: Base64 / Hex (encode + decode)</li>
+          <li>Drag-and-drop, авто-визначення BOM</li>
+          <li>Acrylic / frosted glass + янтарний акцент #F59E0B</li>
+        </ul>
+        <div class="actions">
+          <a class="btn btn-accent" href="https://github.com/testdurnya02-alt/volchay-mineral-cloud/releases/download/v0.1.0-conpro/Volchay-con-pro-windows-x64.zip" download>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+            Завантажити .zip для Windows <span class="filesize">~85 MB</span>
+          </a>
+          <a class="btn btn-secondary" href="https://github.com/testdurnya02-alt/volchay-mineral-cloud/tree/source/volchay-con-pro" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.55v-2.13c-3.2.7-3.87-1.37-3.87-1.37-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.74 2.67 1.24 3.32.95.1-.74.4-1.24.72-1.53-2.55-.29-5.24-1.27-5.24-5.66 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.15 1.17a10.95 10.95 0 0 1 5.74 0c2.18-1.48 3.14-1.17 3.14-1.17.62 1.57.23 2.73.11 3.02.74.8 1.18 1.82 1.18 3.07 0 4.4-2.69 5.36-5.25 5.65.41.35.78 1.04.78 2.1v3.11c0 .3.21.66.8.55C20.21 21.39 23.5 17.08 23.5 12 23.5 5.65 18.35.5 12 .5z"/></svg>
+            Вихідники
+          </a>
+        </div>
+      </div>
+    </article>
   </section>
 
   <section id="about">
@@ -607,8 +690,8 @@
   <footer>
     <div>© Volchay Mineral Cloud · зібрано вручну</div>
     <nav>
-      <a href="https://github.com/reideveloperr-jpg" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://github.com/reideveloperr-jpg/disk-cleaner" target="_blank" rel="noopener">disk-cleaner</a>
+      <a href="https://github.com/testdurnya02-alt" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://github.com/testdurnya02-alt/volchay-mineral-cloud/releases" target="_blank" rel="noopener">Releases</a>
     </nav>
   </footer>
 
